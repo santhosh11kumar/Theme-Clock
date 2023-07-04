@@ -39,10 +39,11 @@ body{
 }
 .popup{
   position: absolute;
-  top: 50%;
-  right: 20%;
-  font-size: 2rem;
+  top: 100%;
+  right: 30%;
+  font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 .img_{
   position: absolute;
@@ -87,12 +88,12 @@ body{
   background-color: rgb(235, 12, 12);
 }
 .minute{
-  width: 0.2rem;
+  width: 0.275rem;
   height: 5rem;
   background-color: rgb(24, 24, 24) ;
 }
 .hour{
-  width: 0.2rem;
+  width: 0.35rem;
   height: 3rem;
   background-color: rgb(2, 2, 2);
 }
@@ -138,7 +139,7 @@ body{
   border-radius: 50%;
   padding: 0.5rem;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   .hour{
   width: 0.2rem;
   height: 2.5rem;
@@ -151,6 +152,7 @@ body{
     width: 0.2rem;
     height: 4rem;
   }
-  .display{
+  .popup{
+    display: none;
   }
 }
